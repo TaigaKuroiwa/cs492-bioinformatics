@@ -1,0 +1,38 @@
+Usage of MSER and artificial circle detection of opencv
+
+Concerns 
+My program used opencv's feature detector of MSER. 
+The initial problem of using opencv on this project was to 
+add some filter to the original image, such as Gaussian filter. 
+Considering the complexity of the vesicle detector's images, 
+simply adding filter will blunder on humongous degree. 
+
+Explanation
+Therefore, my approach was to use simpler feature detector 
+that does not need filters and programly add more filters, which is function suppress. 
+Through the initial step of sfs on line 25, we will bruteforce everysingle pixels to find the circle.
+If the program was stopped overhere, it will have outcome of numerous circle detected in the image. 
+In order to suppress evenmore, we will find the average size of the circles and 
+don't write the circles that has lower(or higher) average than certain degree, 
+which is double adjustedA in line 34. 
+
+Optimism for the program
+This program's computational time is low due to its simplicity of the program. 
+In order to be more perfect and accurate with the circling, 
+we should add feature of how clustered circle area, and run evaluation algorithm of the 
+circles, such as neural network. 
+
+The solution and my own comments
+Solution is available at my kgvoid's public_html. 
+The circular detection through MSER was much more complex than 
+just looking for small circles. 
+Also the circular detection was not only looking at black spots, but
+consentrated edges that looked circular too
+(as you could see on the right image, left upper circle concentrated area). 
+You could see the number by comment-off the hashtag on line 50 that says 
+print(counter). 
+
+Different approach
+This program could've started from filtering and de-filtering process, 
+to somewhat maintain the quality of the image, and optimise the detector as much as possible. 
+Also the definition of "circle" could be optimize by adding different function. 

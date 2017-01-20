@@ -1,0 +1,49 @@
+week5 classNotes
+
+One more programming lecture -> then back to our usual content
+
+Presentation details:
+	planning to use 3 classes for 9 student presentations
+		- will include discussion of post presentations
+		- approximately 25min 
+	Present a paper 
+	Non restrictions:
+		- its ok if you are an author
+		- its ok if you read it for some other reason
+		- any publication date is fine
+		- biology papers are fine, if they used someething bioinformatics 
+			so its ok if they just used a bioinformatics tool
+			even if they just downloaded it and didn't program
+			even if the just ran BLAST
+			understand who we're trying to help
+		- biology papers are fine, if bioinformatics would have helped
+			http://brain.oxfordjournals.org/content/129/11/2894.long
+	Restrictions:
+		- no pure CS
+		- must be peer-reviewed article (Google Scholar)
+		- it can't be the DSCAM and dendrite clumping paper 
+		
+	Grading rubric 
+		understand the paper = 50% -> just keep reading the wiki 
+		background of the paper = 20%
+		clear presentation of the paper = 30%
+	
+Counting the neuron bodies 
+	Finding the extent of one 
+		from yellow image is fine 
+		saving from PIL
+	change color when found?
+	
+	
+
+Sep 21 
+
+the image on reality is not always sliced perpendicular
+therefore you will see the stacks in some respective angle
+
+fiji 
+import image sequence -> find the directory 
+python image library apparently does not support 3d images or stacked images 
+the stacked image may jump around -> can fix on the fiji 
+	land stack slices 
+ 

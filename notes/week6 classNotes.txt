@@ -1,0 +1,209 @@
+week6 classNotes
+
+Found computers everywhere, discovered code
+	non-coding regions
+	stuff we don't understand can be important 
+	"form follows funciton"
+
+Genetics and politics, and curriculum
+	How important are hypothetical ancestors?
+	Form a theory to explain observations
+		- when nothing contradicts it, we get attached
+		- AES
+		- EMDrive = microwave thruster, and its still can't explain with physics
+	Things long ago hard to know about 
+		- velociraptors(dinosaurs) and feathers
+		- neandrathal example
+	Chickens, artifical and natural selection and evolution
+		- that says nothing about how or when life began
+		- but it leads to a theory for origin of diversity
+		- one that is wrapped in emotional entanglements(could be very personal)
+		
+Genetics, preparing to cover these
+	And presentation tips for biology / bioinformatics papers
+	
+Reminders
+	transgenic organisms = genese planted into it 
+	genomics = looking at genomes as hole
+	phenotype = 
+	genotype = 
+	gene 
+	allele
+	
+Wikipeadia "introduction to genetics" maybe useful
+	genetic determination
+		= epigenetic inheritance 
+		= learning from experiences
+	Genese as a blueprint
+	Genese as words
+		starting at different spot and produce different protein
+	
+
+Not covered last time, but probablly should be covered
+	inheritance
+	recessive traits
+	46 chromosomes in humans, in 23 pairs
+	Hair example is kind of abnormal
+	
+Misconceptions about genetics, according to Wikipeadia
+	Genetic Determinism
+		- Epigenetic inheritance
+	Single-gene control of phenotypes
+	Genes as a blueprint
+		- This is sort of true
+		- I think the article is anti-oversimplification
+	Genes as words
+		- Again, anti-oversimplification
+		
+sometimes appropriate means of simplification
+	anthromorphism
+	for a machine: what does it do?
+		- pointedly ignore how it does it
+		- this should answer "why do you need it?"
+	Use percise terms
+		- only ok if communicating with experts = actually great shortcut
+		
+Presenting something complicated in detail:
+	people will have trouble tracking this
+	strategies to help:
+		- review 
+		- checkpoints
+		- don't require recall of something complicated = often minute ish
+		- don't require retention of new terms for long
+		- always assume and use intelligence
+		- spiral, with different examples
+			sneak review in without causing hatred 
+	your presentation will be long enough to make this useful
+	conference talks by graduate students
+		- the best defense is a good offense 
+		
+Let's talk about glowing transgenic fish!
+	
+Fluorescent proteins:
+	bioluminescence
+		- fluroscent proteins have a role in it
+		- fluroscence requires eneregy input
+		- flourescent tubes use UV 
+	Green flourescent Proteing(gfp) from comb jelly
+		- was put into C. Elegans
+		- many articles make use of these
+		- outside science: alba and ANDi, Glofish
+		- article suggestion and comfort with GMO 
+	
+Studying gene expression
+	Promotors 
+	FP's are easy to see 
+
+Ecology
+	As a marker, as usual
+	Obvious phenotype
+	Example:  Which plants are transgenic?
+	Non-destructive determination
+	Neuteral markers
+		- Does not reduce fitness
+		- Edible!  Fluorescent feces
+	Transgene zygosity
+		- Homozygose:  Matching alleles
+		- Heterozygous:  Non-matching alleles
+			+ One will be dominant
+		- Hemizygous:  Only one copy
+		- Nullizygous:  Two loss-of-function alleles
+			+ Also homozygous
+		- Heterozygous canola plants exhibited lower fluorescence
+			than homozygous plants
+	
+Monitor transgenic organisms
+Environmental monitoring:  Detect toxins, show with FP
+Spectrum analysis equipment
+	Tractor-mounted?
+Which FP is best?
+	Quantum yield
+	Exitation wavelength and noise
+Custom colors
+	Lasers can create particular wavelengths
+	
+Sep 28 
+
+Gorilla Gorilla Gorilla
+	Western Lowland Gorilla
+	
+It is totally fine run Fiji and use Weka and do the project 	
+
+Lab results:
+	Most solutions struggled with clustered vesicles
+	Occasional membrane inclusion is NOT ok
+	Promising results a lot of the time
+	It'll depend on the features
+		- You can add features yourself if you like
+
+BLAST
+	Basic Local Alignment search Tool
+	Why local?
+		- Regions of similarity
+	Is it a tool or an algorithm?
+		- Both...
+	Find sequences that are close to a given sequence = find regions of similarity 
+	Fast non-optimal algorithm
+		- Why non-optimal?
+	Often used for approximate sequence matching
+	
+Running BLAST
+	Easier to run online
+	It searches non-local data anyway
+	Let's run it on DSCAM!
+
+GeneBank
+
+What if you find a badly-decomposed organism?
+	If you can get DNA out of it to sequence, BLAST will work!
+	Fossils, etc
+	Mosquitos in amber?
+
+The algorithm:
+	Good alignments contain short lengths of exact matches
+	Designed for fast search
+	Words:  11 base pairs
+	Can be used on proteins too!  Words of 3 amino acids
+	Scoring
+		- Scoring of pairs of words
+		- Positive score for good substitutes or original
+		- With proteins:  Many values
+		- With DNA:  Generally 5 (identity) or -4
+		- Tables
+	Maximal Segment Pair (MSP)
+		- Highest-scoring pair of identical length segments
+		- When comparing sequences...
+		- Sequence score is the sum of individual scores 
+		- Longer sequence has higher potential score
+	Low-complexity regions
+		- Scoring will come later
+	Find similar words
+		- Using the scoring
+	Words go in a search tree
+	Scan for exact matches with search tree words
+	Extend the exact matches to High Scoring Segment Pairs
+	List all the HSPs with high enough score
+	About done at this point!
+	Evaluate significance of HSP score
+		- Use statistics...
+	Make HSPs into longer alignment
+		- May score lower with longer alignment
+	Show Sigh-Waterman local alignents
+
+Variants:
+	Gapped Blast (blast2)
+	Parallel Blast
+		- How could it be parallelized?
+	Accellerated versions
+		- FPGA, CUDA, MPI, and more
+
+Alternatives:
+	FASTA
+	BLAT
+
+Research using these
+	Efflux-mediated heavy metal resistance in prokaryotes
+	Eukaryotic zinc transporters and their regulation
+
+	
+

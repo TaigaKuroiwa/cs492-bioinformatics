@@ -1,0 +1,46 @@
+week8 Presentation notes 
+
+Fuzzy Vault Crypto Biometric Key Based on Fingerprint Vector Features - Bryan
+putting cryptology on finger prints
+
+The idea itself is out there - but not much consistent models yet
+lowmemory and storage-> so 1to1 matching = not much security = you can brute force in
+
+distortion tolerance and discrimination requirements
+biometrics = being able to read biology
+
+fuzzy commitment = 200 chalking information so its harder to brute force
+chalking = put fake bioprints 
+1 right answer and then apply fake information -> will cause false readings too
+brute force = if somebody breakin, there will be too many information 
+
+more components = fuzy vault scheme
+it provided little bit more security, but did not solve anymore issues
+
+false acceptance = you actually need to register 
+false rejection rate - instance of a secruity system failing to verify or identify
+an authorized person = likelihood that the biometric security system will 
+incorrectly reject an access attempt by an authorized user 
+
+
+Recursive Training of 2D-3D Convolutional Networks　for Neuronal Boundary Detection　- Gus
+
+neural network 
+two nodes, input layer -> hidden layer(s) -> weight+activation -> output layer 
+This is basic structure + one dimentional computation of neural network 
+
+Convolutional neural networks -> kind off similar to neocognitron
+http://www.kiv.zcu.cz/studies/predmety/uir/NS/Neocognitron/en/images/figure3-1.gif
+200 x 200 x 3 = 12000 weights if its neural network
+
+deep network = lots of convolution
+
+recursive network architecture = make 3d into 2d 
+and classify the result and then run into again and classify again 
+
+3d-filters, videoes, time-laps
+recursive neural networks - boundary detection and image labeling
+it provides good starting point 
+ 
+
+

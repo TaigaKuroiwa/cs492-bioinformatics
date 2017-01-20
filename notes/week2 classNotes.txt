@@ -1,0 +1,79 @@
+week2 classNotes
+
+Project 3 
+histopathology will give categorization problem and we will do it on PC 
+unfortunately no right wrong answer, so lot of creativity 
+We will actually visit their class/lab
+group project, actually 
+
+Image processing
+python imaging library = 
+from PIL import Image//python code, its in anaconda 
+https://pillow.readthedocs.io/en/3.3.x/
+Image.putpixel//simply changing the pixel, but maybe not 3d image 
+Image.putdata//need to have the image arranged already 
+Image.paste//puts into different image 
+
+why is fast access to individual pixels hard?
+it is simply not designed to easily access, but manipulate in different ways 
+but it is ok to change the color per pixel 
+
+a simple technique:
+1.derivative of intensity -> must be the value of how much is changing in the intensity 
+2.difference from the neighbors(average disperaty), multi-directional change 
+3. making dark membranes darker 
+
+the example, 
+dark membrane darker + putting small line + putting big line 
+
+color, rgb images, etc:
+image.new("RGB", (512,512), "white")//the middle one is size, and last one is default color 
+unfortunately image.new is not that quite simple 
+basically it will double time because we are making 2 images 
+
+vsscile detector project!
+some cases vescile will block the detection,
+need to know if its inside the circle <- is it just neighbours?
+	what we could do is to define the frontier 
+	think about the paint bucket on the painting tools 
+should work by, 
+1. take a pixel 
+2.find is it vescile or not
+basically looking for a small(?) circles 
+you don't need to have a user interface, just do it 
+find the edge and find the circumferance of the small circle 
+mostlikely you will use only one image, not THE 3d images 
+
+stack of images;
+it is specifically not 3d 
+array of images is basically will be list/stack of images 
+
+
+Aug 31 
+
+Multi-threading -> will not make the result easily determined
+supposed to be super easy in Python 3
+
+if we can find the edge, we would now curvature（湾曲、ひずみ）
+
+vescile tend to be looking empty
+
+image quality is always been an issue in image processing 
+
+Artificial intelligence on machine learning essentials
+http://www.geocities.co.jp/Technopolis/5893/machinelearning.html
+present examples (need to know classifications) -> 
+feature vector
+supervised learning 
+Training set = now everything and make them learn / test set= make sure how accurate machine is 
+accuracy is just accuracy 
+confusion matrix = the cancer detector's accuracy and actual % of patients 
+get examples -> define feature vector -> get test set -> if suitable use it for future
+j48 = tree 
+Artificial neural nets = from node to node 
+support vector machine = has its own graph, and add new dimension so that it will be easier divide samples 
+						unimaginable amount of time required 
+k-nearest neighbors algorithm = distant vectors from the feature vectors in the graph 
+						if the data is irrelavant, it is not helpful at all-> most of them will be noise 
+
+Graphical Neural Analyzer 

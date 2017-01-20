@@ -1,0 +1,246 @@
+week9 Presentation notes 
+
+FogBank: a single cell segmentation across multiple cell lines and image modalities = Kyle
+
+cell line - cell culture grwon from a single celle
+counting and cutting the cells 
+
+Watershed segmentation
+grayscale image or gradient image made into heightmap 
+pixel gradients to divide the image
+seed points defined as start of a region
+seed points can be detected or chosen by user
+over segmentation usually happens
+
+Watershed flooding
+water poured into regions and flow along gradient vectors
+when the water touches each other = boundary, like a slope of 0 
+create boundaries when flooded regions touch 
+combine regions as needed to combat over-segmentation 
+
+Problems of watershed segmentation
+over-segmentation hard to correct
+biological noise
+region merging inaccurate and insufficient 
+
+Fogbank alogirthm
+address isues with wathershed methods
+geodesic distance ( graph distance) used differently 
+new automatic seed detection methods 
+
+Fogbank overview
+1. seperate foreground from background, defining the region of interest 
+2. detect potential cell boundaries in the image that will be used as barriers in computing the 
+
+seperating foreground and background 
+foregound : stuff we want
+background: junks 
+Emperial gradient threshold technique 
+	- gradient image made from original
+	- seperate those based on gradient magnitude overlap
+
+Geodesic distance
+takes boundaries into account when computing distance 
+
+Cell boundary detection
+two ways this is performed
+1. just say there aren't boundaries2
+2. boundaries defined based on pixel intensity percentile (rightness of the boundary)
+
+Finding seed points
+Histogram quantization with seed size constraint 
+nuclei detection 
+
+Histogram quantization with seed size constraintmost methods use bins of every intensity value 0-255
+fogbank uses bins with intensity percentiles
+detect seed points 
+has size boundaries 
+
+Nuclei detection for seed points
+Histogram bin still used 
+only one user-defined percentile used 
+find nucleoli
+additional circularity calculation and threshold
+nucleoli distance compared with diameter threshold to find nucleus
+C=4π×area/(perimeter)^2
+
+Qualifying success 
+Tested against manually segmented data sets
+1. cell count accuracy
+2. adjusted rand index 
+evaluate 1 = perfect match
+
+Performance evaluation 
+compared against six other methods on six other datasets
+boundaries similar to manually drawn ones 
+
+
+Evaluation of UAS for photographic
+re-identification of bowhead whales Janey
+
+eastern canada - west greenland 
+bering-chukchi-beaufort
+interest declining sea ice and projected increase of shipping and other industrial activity in the arctic
+past, capture-recapture studies and manned aircraft photos 
+
+manage need of info
+size - growth rate
+population structure
+habitat preferences
+survival
+calving intervals
+population grwoth rates 
+
+Bowhead whales aka balaena mysticetus 北極クジラ
+don't migrate to low altitude waters to feed or reproduce 
+
+3objectives for the study
+1. develop a protocol to collect magery with an UAS being operated under 
+line of-sight sfoc (1.5km from boat)
+2. collect high-resolution photographs of bowhead whales to assess whether UAScould be used for photo-identification 
+
+benefits
+quieter and smaller than manned aircraft = costless
+reduce safety risks
+less blurry 
+lower environmental footprint 
+assume less of a disturbance on the marine wild-life 
+
+twin otter - the name of the plane
+
+Igloolik, Nunavut, Canada 
+9mth of 0 C 
+
+The brican TD100E UAV
+batter powered 
+Nikon D800 Digital single lense
+two cameras 
+
+nikon D800 
+
+GCS - ground control system 
+the imagery will be stored on the drone
+but GCS could see all actions 
+
+patenuade et al 
+approximately 3.7 (8 of 218) responded to the drone 
+but the problem is they actually don't care at all + drone moves fast 
+
+objective 1 
+1. restricting flights to the line-of-sight imposed additional burdens 
+that increased deployment time and personal
+
+objective 2 
+1. get image of whales with much better quality
+2. could relate with previous studies 
+
+
+3D multifunctional integumentary membranes for spatiotemporal cardiac measurements
+ and stimulation across the entire epicardium Michael
+
+basically means stimulate the heart entire process of outside muscle 
+put bunch of sencors on heart and makesure it won't stop at random point 
+
+They 
+
+Factors Predicting Glycemic Control in Middle-Aged and Older Adults With Type 2 Diabetes - Kevin
+
+Glycated Hemoglovin - should be able to predict sugar through last 90days
+
+Nationally respresentative DATA
+1998 and 2000 Health and Retirement Study
+HRS 2003 Diabetese study 
+
+Test group of 51-64 years, and 65 years and older
+Demographic characteristics (age, sex, race/ethnicity, education, and marital status) 
+
+Data analysis 
+SAS version 9.1 - statistical analysis system
+t-test 
+Analysis of variance ANOVA
+simple regression
+	linear regression model with a single explanatory variable. The adjective simple refers to the 
+	fact that the outcome variable is related to 
+
+After analyzing all the data, benefits are,,,
+demographics 2nd highest, 
+treatment modality is was highest 
+Lifestyle had lower result 
+Clinical conditions perfrom the best for the middle-aged 
+has tendencies that economic standards define how well you managed your glycemic control
+
+found guidelines 
+recommended a lifestyle regimen across the entire span 
+highlight the need to help type 2 diabetics who are 
+	1. middle aged and sociodemographically and clinically disadvantaged 
+	2. 
+lifestyle is not physical activity, but what kind of people you hang-out and eat 
+
+Biometrics Authentication Using Raspberry Pi　by Amjad
+fingerprint authentication, PHP, postgresql, python, raspberry pi, Ovencv, U.are.U 4500 
+
+Biometrics 
+physiological chracteristics - dna sequences, fingerprint, face recognition
+behavioral characteristics - gait analytics, voice
+the biometrics market was expected to be worth 13.8 billion in 2015 = for security devices fee 
+
+Earlier work 
+1. suggested increasing the accuracy of an existing fingerprint recognition by new tech 
+2. recognition by using standardized fingerprint model 
+3. wireless fingerpritn based security system using Zigbee Technology 
+
+system outline
+
+software architecture 
+php - postgresql - opencv python script
+1. initialize ip address in putty
+2. run the lightvncserver
+3. connect eh fingerprint module
+4. open the fprint_demo gui - access database
+5. read and save the image template 
+6. convert the image template in to binary template 
+7. save the obtained template in the postgresql database 
+8. now comparison between various templates can be carried out using the python script 
+9. 
+implementation procesure
+frpint demo application 
+
+Real-timefMRIbrain computer interfaces:Self-regulationofsinglebrainregionstonetworks - Kent 
+
+change in blooc-oxygen level signals 
+closed loop system of 5 steps 
+s
+echo planar imagining
+digital data recognition of radiowave 
+bci - sensor to find the activity level of center of brain 
+takes the signale from the brain, and receive to 3d-image of brain 
+
+1. initial subject
+2. signal acquisition
+3. preprocessing 
+4. signal analysis = data processing + 3d motion correction + visualization 
+5. feed back 
+
+first attempt to explore brain area related to emotion 
+1. shown faces with emotion
+2. participants perfomed a mood self-induction paradigm 
+
+others areas studied
+somatomotor - skeleton near part of brain 
+auditory 
+language 
+deep brain 
+
+studies 
+1. nicotine addicts  
+2. schizophrenia 
+3. depression 
+
+brain network connectivity
+different then conventional neuroimaging
+uses spatially distributed regions of the brain 
+possible because of pattern recognition 
+
+extremely time consuming 
+and data size is not large at all 
+

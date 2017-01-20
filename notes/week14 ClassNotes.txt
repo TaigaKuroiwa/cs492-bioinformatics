@@ -1,0 +1,52 @@
+International Club possible options from retrospective perdictions
+
+project 3 
+eventually get stack of images -> mri is low resolution 
+
+from PIL import Image
+from sys import argv
+from commands import getoutput
+
+directory = argv[1]
+contents = getoutput("cat " +  directory).split()
+
+images = []
+for image_name in contents:
+    if not "dcm" in image_name[-4:]:
+        continue
+    images.append(Image.open(image_name)) #go through the directory contents 
+
+# So we have a list of images
+#image_list[z].getpixel(x,y) # Get pixel x, y, z
+##how to get pixel from each images, if you want to see 107th view, z will be 107th 
+
+# Or for board coordinate system
+#image_list[x].getpixel(-z, y)
+#image number, 
+
+horiz = Image.new("RGB", images[0].size, "white")
+
+for x in range(len(images)):
+    for z in range(255):
+        horiz.putpixel((x,y), images[x].getpixel(255-z, 128))
+		##generated horizontal section, 255 is one of the dimention of the image 
+		##you should get a line from the pixel, like putting a line on book
+		##you should produce a better images to know the tumor 
+		##get the absolute value of difference to counter part 
+
+horiz.show()
+
+
+project 3 
+will end up with ghost image 
+so the images are image slices of brain => 右から左へ移動してるので
+画像スタックの真ん中を探し出し、比較する。真ん中は、脊髄しか映らないハズ。
+
+whats on final 
+1. writing image processing code 
+2. neurons
+3. genetics and bioinformatics (something will comeback) the vocab sheet 
+4. cancer (not that deep), superficial question on cancer 
+5. presentation round 2
+6. anomaly detection (not super detailed)
+7. project 3 stuffs 

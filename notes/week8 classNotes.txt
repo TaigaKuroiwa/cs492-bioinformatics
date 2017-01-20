@@ -1,0 +1,89 @@
+week8 classNotes
+
+write up the test question 
+Project update:  Many people are working on it
+	Library use is OK
+	Deadline:  Are we going to make it?
+
+Presentation scheduling
+
+Leigh and lab, sometime
+	Today we'll learn to outline
+	You won't like vesicles anymore
+	At some point in the future, you'll be judged on speed!
+	The good computers aren't here...
+
+A brief history of genetic modification:
+	Direct modification of an organism's genome
+		- Indirect modification:  Breeding, etc
+		- This started a long time ago
+	Grafting?
+		- Fruit trees are often done this way
+		- And roses
+		- Wikipedia:  Natural form of genetic engineering
+		- Not usually what people mean...
+	Not a very precise term
+		- For example:  Call transgenic organisms transgenic
+	Reminder:  Gene vs. Allele
+		- So you transplant an allele of a gene
+	X-rays have been used to speed plant mutation
+
+Genetics:
+	Named in 1905
+	Needed for genetic engineering
+
+Modifying organisms:
+	First recombinant lab DNA:  SV40 virus and lambda virus
+	Next:  Adding resistance to Kanamycin to bacteria
+	1973:  Transgenic mouse!  SV40 in mouse DNA
+		- Jaenisch was expecting tumors
+		- Did not pass on allele
+		- 1981:  DNA in mouse that passes on
+	1983:  Genetically modified tobacco
+		- Survives lethal levels of antibiotic
+
+Regulation:
+	Always follows any technology...drones...
+	What about ecosystems?
+		- New Zealand and rabbits
+		- Could that happen elsewhere?
+
+Research uses:
+	1984:  Mice that develop cancer
+		- And various knockout mice, starting in 1989
+		- DSCAM and BAX knockouts are great
+	1992:  Knock out tumor suppression mechanisms
+	2003:  Knockout rats (they were harder)
+	microRNA discovered in 1993
+	Now:  Used all the time for many purposes
+
+Commercial use:
+	1982:  Human insulin for sale
+		- It was produced starting in 1978
+		- Back when cars had carborators and no computers
+	1987:  ice-minus straing of P. Syringae to protect from frost
+		- On strawberries and potatoes
+		- Fields attacked by activists
+	1986:  GMO tobacco plants resistant to herbicides
+	1987:  GMO tobacco plants resistant to insects
+		- They produce insecticital proteins
+	1994:  Flavr Savr tomato with long shelf life
+	Also 1994:  Commercial use of tabacco plants (took a while...)
+	Use expanded rapidly after that
+	2013:  Monsanto bigwigs awarded World Food Prize
+
+Rabbits and GMO alfalfa:
+	Rise and shine rabbitry opinion:
+		- Roundup use lowers nutritional content
+		- Changes in goats fed GMO soy
+			+ DNA from feed blood, organs, etc
+			+ Higher levels of lactate dehydrogenase (is that bad?)
+		- Anecdotal evidence that GMO pellets make rabbits less healthy
+		- Rabbit enzyme levels change with GMO soy
+			+ Why feed rabbits soy?
+		- A German farmer lost 65 cows after feeding GMO corn
+	How relevant is the above?
+		- Molasses in pellets
+	Things come together
+
+Transhumanism	

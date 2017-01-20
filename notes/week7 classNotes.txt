@@ -1,0 +1,111 @@
+week7 classNotes
+
+Note about goats
+Gender in chicks
+	Cromosomes
+	As far as I know, no use of fluorescent proteins
+	
+Rabbit colors!
+	They're different colors
+Mendel square for Silver
+	Allele from each parent
+	Homozygous, Heterozygous, recessive, dominant
+How about a bigger one?  Gene C
+	This is an example in the Bio 181 textbook
+But the complete picture is a little more complicated
+	Human height...
+A more complete example!
+	I have some rabbits
+	Rabbit color genes at DebMark and my examples
+
+Notes (reminder for me):
+	I don't know Ariel's genotype except for C
+		- Caprica's genotype could have been different
+	Ebenezer speculation
+		- Hybrid vigor, or maybe temperment
+	Do Dinah and Belle have an albino allele?
+		- I'll never know!
+		- Could find out...
+	Coloration and cold and not-albios	
+
+BLAST uses
+Using amino acid sequence instead of DNA
+	Study the product instead of the description?
+	Non-coding regions in DNA
+		- Not "junk"
+	Primers in DNA
+		- A short strand, starting point for synthesis
+		- Required for replication
+	Daphnia	
+	Leigh 
+		- Primer
+		- Philgenetic tree reconstruction for a gene
+	Protein sequences compared to gene sequences
+	
+	
+<body>BMC Bioinformatics
+How to read a paper
+
+How does DNA work anyway?
+	DeoxyriboNuclease Acid
+	RNA = RiboNuclease Acid
+	Strand of nucleotides
+		- Two strands, running opposite directions
+		- Base pair = two nucleotides
+			+ Thymine and Adenine, Cytosine and Guanine
+			+ Pairing due to length in spiral
+			+ This is NOT the pairing for different genes
+		- 3' and 5' ends
+		- Organization:  Genes, Chromosomes
+			+ Chromosomes are paired (inheritance)
+			+ During reproduction:  Chromosomes are un-paired
+			+ Homozygous, Heterozygous, dominant, recessive
+		
+		- Gene is at a locus on a chromosome
+		- Allele is a possible sequence for a gene
+			+ Some genes have many alleles, some have two, some have one
+			+ What happens if there's an invalid allele?  Death usually.
+		- GeneBank then:  Includes genomes of many organisms
+			+ But they're all different
+		
+	In a Cell:
+		- DNA is held in the nucleus
+		- Complete genome in nucleus!  But only some parts used.
+		- mRNA is formed in the nucleus
+			+ Various processes control how exactly
+			+ Protein-coding sequences 
+		- Amino acid sequences are formed from mRNA in the RER
+			by ribosomes (rough vs. smooth ER)
+		- Golgi apparatus packages proteins, modifies some proteins by adding sugars
+		- Smooth endoplasmic reticulum does metabolism stuff, lipid synthesis, 
+					sorting, depends on type of cell
+	Cell Division:
+		- DNA is copied, in multiple places at once
+		- Pairing makes this possible
+		- Separate strand, DNA polymerase joins appropriate bases to half-strands
+		- Primer required to start
+		- This process is not prone to frequent errors
+	
+Terms I might or might not have forgot:
+	Recombinant DNA:  Brings together multiple sources
+		- Tree becomes a graph
+		- Leads to transgenic organisms
+		- Viruses do that too sometimes...
+	genome
+	pedegree
+	hybrid
+	
+
+Brief history:
+	Mendel:  Late 1866
+	DNA might be involved:  40's
+	DNA spiral conceived:  1953
+	Regulation of gene expression:  60's
+	Genetic engineering:  70's (controlled gene expression)
+	Sequencing:  90's
+	Widespread use in everything:  2000 to now
+	Compare/Contrast to progression in CS
+	
+</body>
+
+maybe want to find a tool that they've used to demonstrate the presentation

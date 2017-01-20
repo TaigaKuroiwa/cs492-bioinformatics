@@ -1,0 +1,126 @@
+Kyle = lip plasm 
+approximate string matching problem
+find the smallest edit distance 
+usually three, insertion + substitution + ???, 
+hamming distance 
+https://en.wikipedia.org/wiki/Hamming_distance
+
+
+Janey = 3D bioprinting system to produce human-scale tissue constructs with structual integrity
+not much donor is the reality - we must make it 
+this paper is ear because of difficulty 
+historically - not 3d _ no grow cartilage and blood vessels = much failiure 
+
+Jetting 
+pros = produces picoliter scale drops with in printing 20-100myu-m
+
+Extrusion
+more 3d stable + high concentration of hydrogels such as alginate, fibrin and pluronic 
+
+Laswer induced forward transwer
+print cells in relatively small constructs 
+cons - low flow rate
+
+Integrated tissue-organ printer 
+traditional 3d printer ish 
+it uses human mice cells 
+
+how they achieved 
+structural integrity in a liquid forms 
+able to use different types of materials 
+down to 2micrometers 
+microchannels
+
+medical imaging (mri) -> 3d cad model -> visualized motion program 
+-> 3d printing ->3d bioprinted tissue product 
+
+composite hydrogel 
+gelatin 
+fibrinogen 
+Hydraharonic acid 
+glycerol mixed into DMEM 
+viability was very close to 100%
+
+Mandible bone reconstruction 
+
+Calvarial bone reconstruction 
+maturation of bioprinted bone 
+blood vessel going through + thickness of bone increased within 5 months
+
+Ear cartilage reconstruction 
+
+
+An Introduction to Biometric Recognition - Amjad 
+
+Issues 
+performance and type
+acceptability by public
+circumvention 
+
+Biometrics system 
+recogniton system that operates acquirng biometric data 
+
+Verification mode = validates a person's identity by comparing the captured biometric data 
+Identification mode = the system recognizes an individual by searching the templates of all the users 
+
+DNA, ear, face, vein inframed thermogram, fingerprint, gait(behavior analysis), 
+hand finger geometry, Iris, keystroke, signature 
+
+application of biometrics 
+commercial = atm, 
+government = national ID  
+forensic 
+
+disadvantage 
+negative recognition 
+
+
+Iris Recognition - Michael 
+it was thought that iris will not change -> recent research found that some odd interaction will change iris 
+How much info will you need to recognize iris. 
+Infrared light and odd camera and normal camera 
+easily accessible + convenient + fast and secure + distinctive (half a second)
+unless someone could get good image of eyes 
+consideration of selfie images = iris on public
+it skins the ridges of center of eye（瞳）
+it must be straight on = need good orientation 
+
+image acquisation, iris location and pre-processing = horizontal images of wave and hills and vallies 
+iris texture feature extraction and signature encoding 
+iris signature matching for recognition or verification 
+
+Daugman's Alogrithm = not accurate but very fast 
+Hamming distance -> what percentage differnce acceptance to verify the person 
+
+Hardware desing 
+offline vs online 
+they only needed 12bits of data for each packet 
+
+300 irises + 1200 times of matching = 98.3% verification + 9.2% rejection rate 
+much noise in wireless transmittion
+
+Cut and paste manufacture of multiparametric epidermal sensors - Kent 
+very thin electric cerquitry 
+superthin - move and strecth - will not get damaged easily 
+pretty much one time use = like a temporary tatoo 
+
+vaccum deposition of films - use chamber of gold and vaccume will sucks into skin 
+photolithorgraphy = inprint pattern they want 
+wet and dry etching = bombar material with irons and keep it there 
+transfer - printing = depth coding 
+
+Limitations
+photolithorgraphy = very rigid and not used a lot 
+high cost + need clean rooms 
+high amount of man power required 
+
+cut and paste 
+doesnt use vacuum deposition 
+doesn't use photolithography patterning 
+less than 10 min 
+
+they use aluminum(not preferred but cheap) or gold 
+thin as 9 nano meters 
+breathing + hydration humidity + eye closing/opening + muscle + pumps 
+
+

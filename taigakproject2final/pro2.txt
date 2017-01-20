@@ -1,0 +1,36 @@
+Definition of my program:
+go over all the comparison of single letter, and put signs for same letter at same position. 
+That signs and blanks(mismatches) are appended to new array. 
+Receiving that new array, the program will break down into 100 pieces of subarray. 
+Then we will go through the subarray, and find probability of matches in each subarray, 
+Assuming match score more than 80% is more likely that its a match of 
+NNNNNN to NNNNNN, we will negate those cases. 
+At the end, we will find overall similarity by 100 subsets. 
+
+small note:
+on sequence_matching function, 
+I've tried to use numpy, but it was way too funky. 
+It may lead to optimization, but there were too many errors 
+that I couldn't solve even with a help of internet. 
+
+Disclaimer:
+I've tried my program several times, 
+however I'm keep getting the "Killed" by the ubuntu. 
+I could imagine its way too not efficient. 
+
+however, it works totally fine when I try to look for only one comparison. 
+To be precise, 
+##terpMystery = sequence_compare(terp,mystery)
+##terpmatch = sequence_matching(terpMystery)
+##print(terpmatch)
+following code did work. 
+
+each takes around 6-7 minutes 
+And we are mentioning, 5 matches. 
+Therefore, we could assume it should take 35 minutes. 
+terpmatch = 4.920 e^-7
+bgermatch = 5.297 e^-7
+OryCunmatch = killed
+icsasgmatch = killed 
+Xenopusmatch = killed 
+since the time is running out soon, I will re-handin as it is  

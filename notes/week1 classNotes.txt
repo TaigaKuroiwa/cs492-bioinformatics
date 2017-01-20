@@ -1,0 +1,167 @@
+CS492 - bioinformatics Week1
+Monday 3-5 will be our lab, from next week
+
+bioinformatics are develop software stuff for biological data,
+and simultaneously how computers could approach to the biology.
+(small overlap exist in biology and CS)
+
+computational biology, extremely similar with bioinformatics.
+seems like terminology of those two are very messy
+and many people tend to see things as similar
+
+file genetic tree
+tells how genetically we are similar, like homogenes and all the sorts
+EX, is rabbit close to cat
+
+genetic analysis,
+duck is more closer to pelican or chickens?
+actually many money is paid for genetic analysis
+especially very important once it relates to pestiside or any medicine related stuff.
+
+biologist tend to have different thought process
+especially the "work" part of software tend to be hard for them
+and in this class, we will study "biologist"
+
+how to work across the fence = histopathology link
+
+overview of image analysis in biology
+
+overview of the rest of the field of bioinformatics
+
+Need for bioinformatics
+it tends to happen where bunch of data will help us have better techs
+ex, gene sequences, images from microsope
+
+CS hypothesis testing
+
+How we will learning
+it is expected to be more well-rounded
+
+final and mid are mostlikely its based on our presentations
+there will be question about the lab on each mid and final
+so you must keep on track!!
+basically it will be very heavy class focus exams
+
+Presentation,
+found the paper online and then present at the class
+
+project
+1. will make vesicle detector
+2. histopath connection
+3. find the cancer cell / genetic sequence comparison
+
+labs
+1. pilogenetic tree familarity
+2. learn image processing
+3. plan warm-up neuron counter
+4. identifying stuff in EM images
+5. outlining
+
+in biology, its unlikely that you will understanding everything
+mostlikely you will be leftout at some point
+
+
+Aug 24
+Genomes(ゲノム) and trees
+	-ome:  The whole
+	genome:  All the genes of an organism
+
+Allele = like value?
+https://ja.wikipedia.org/wiki/対立遺伝子
+we can have 1 or more in the same gene
+
+Phylogenetic tree　系統樹
+what happens the genome be compared
+https://ja.wikipedia.org/wiki/系統樹
+recently used to check your ancestory
+
+Trees(phylogenetic tree, Phylogeny, Evolutionary tree)
+(we actually want to right it root up and down leaves, that is not biological way!)
+leaf: extant species, generaly, could be extinct species
+edge: descended
+Internal node: hypothetical ancestor, but not have be found well at all
+root: common hypothetical ancestor(just assuming, not sure atall)
+
+binarytree unless knowledge is incomplete
+two branches is a polytome(多分岐)
+hard polytomy  = well known factor
+soft polytomy = may know soon(may include ? mark)
+
+subtree: cladistic classification 分岐学
+non cladistic classification include reptiles because they aren't monophyletic 
+
+Speciation: not generally observed, kind of nebulous（不明慮）
+you can not speciate very well 
+
+Cladograms, Additive trees, Ultrametric trees 
+cladogram is just telling difference, 
+additive tree shows distance of difference 
+ultrametric tree has scale, but it may not be constant 
+
+Unrooted tree 
+its usually like shape of X, just simply no root 
+
+Plesiomorphic: same as the ancestor 
+apomorphic: derived state 
+autopomorphic: particular one, aut = alone, unique to particular decendant 
+synapomorphic: shared, shared by more than one decendant
+Homology : state that is the same between two decendants because it came from shared ancestors 
+however the ancestor is very vague term, 
+Homoplasy: similarity that occurred independantly 
+
+
+Distances
+d(a,b) >= 0 (0 shouldn't be existing)
+d(a,b) == d(b,a)
+d(a,c) <= d(a,b) + d(b,c) (triangle inequality)
+d(a,b) == 0 only if a == b 
+some processes generate non-metric distance measures 
+
+Ultrametric distances: 
+additional criteria ->  d(a,b) <= max(d(a,c), d(b,c))
+isosceles triangle 
+assumes constante rate of change 
+
+Clades and classification
+
+Genes are duplicated inside organism 
+Orthologous genes not been duplicated since the most recent common ancestor 
+paralogues genes have 
+entire genome must be used for comparison 
+
+Alleles coalesce farther up the tree 
+some value of gene could branch out in different direction 
+Allele can branch out diffeently with the organism as designed 
+
+Consensus tree 
+by adding polytomies 
+strick 
+majority 
+adams(retain similar subtrees)
+check the consensus tree jpg image 
+
+Recombination
+imagining not a tree anymore = designing the organism from the combination of different gene 
+
+Golden rice 
+a rice that has beta carotene(ベータカロチン、人参にあるやつ)
+simply regulations not allow to release it 
+http://www2.odn.ne.jp/~cdu37690/grkibou.htm
+
+Insect resistance in crops 
+bacillus Thuringeiensis, bacterium that makes insecticide 
+
+Taxonomic Ranks:
+	Life
+	Domain (Archaea, Bacteria, Eukarya, talk about viruses but not yet)
+	Kingdom Animalia, Plantae, Fungi, Protista, Archaeabacteria, Bacteria)
+		- Not monophyletic
+	Phylum
+		- Anamalia contains 35 of these
+		- Examples:  Annelida, Anthropoda, Chordata
+		- There are more divisions here than that
+	Class (Mammalia, etc, not frequently discussed)
+	Order (Primates, Lagomorphs, Carnivora, etc.), lots of additional levels
+	Family (Leporidae, Phasianidae, Hominidae)
+	Genus (Oryctolagus, Gallus, Homo)
+	Species (Oryctolagus cuniculus, Gallus gallus domesticus (or Gallus gallus), Homo Sapiens)

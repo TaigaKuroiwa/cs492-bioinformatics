@@ -1,0 +1,138 @@
+week4 classNotes
+
+Methamphetamines
+
+Embryonic development: retina is brain tissue!（網膜）
+actually observable brain tissue
+has Photoreceptors are sensitive to light
+	they don't photosynthesize
+	just an neuron that interact with the light
+	rods function in dim light(the development of eyes could be longterm)
+	cones in bright light 
+	
+Entrainment
+Circadian rhythms概日リズム
+chronological matching to environmental events 
+
+photosensitive ganglion cells circadian rhythm 
+and reflexive brith-light response 
+sensitive to blue lightfound in ganglionic layer 
+
+approx 6million cones, 12million rods in human 
+this is not the quantity nor ratio in other creatures
+
+glutamate used as neurotransmitter = but not always
+
+
+Retina neuron types:
+	Rod
+	Cone
+	Bipolar(rod and cone, depending on connection)
+		On and off 
+		Types, retinal bipolar cells:elementary building blocks
+	Amacrine 
+		connected in a horizontal manner
+		lots of types
+		function poorly understood
+	Horizontal cells
+	Ganglion cells
+		these have types too
+	
+Retina layers:
+	layer of rods and cones
+	outer nuclear layer
+	outer plexiform layer
+		we are interested in this now
+	Inner nuclear layer
+	inner plexiform layer
+	ganglionic layer
+	blood vessels
+	
+Muller glia, glia = glue 
+	most common glial cell type in the retina
+	
+	
+DSCAM(down syndrome cell adhesion molecule)
+BAX(Bcl-2-associated X protein)
+Case note: Guidelines for formatting Gene and Protein names
+
+DSCAM Localization and Function at the Mouse Cone Synapes
+
+Introduction 
+Mechanism underlying development of retinal structure are laregely unexplored
+Drosophila Dscam1
+	some exons maybe excluded when mRNA is formed
+	that allows an alternative interpretation
+	record players
+	many functions are similar anyway
+
+DSCAM implicated in:
+	Axon guidance
+	self-avoidance = kind off spacing 
+	organization of synpatic pairing 
+	adhesion	
+		-transmembrane domain
+	
+DSCAM may affect cone circuites
+	conclusion -> it does
+	questions:
+		where is the DSCAM in the mouse retina?
+		how about the macaque and ground squirrel
+		what morphological differences do we see?
+		
+Materials and Methods
+Animals:
+	DSCAM 2J mice
+		-4pair insertion that disrupts DSCAM
+		-no detectable DSCAM produced
+	DSCAM FD and DSCAM F mice 
+		- Tissue-specific targeting regarding transmembrane domain
+	Bax null
+	Squirrel and Macaque were opportunistic
+	
+Tissue prep(confical microscope = takes out anything not focused, it has lazers that you can beam in particular place)
+	Anethetized and purfused with PBS
+	Eyes hemisected in PBS
+	Fixed in PFT 4%
+	30% sucrose overnight, then froze in cutting media
+	sectioned to 10um (micrometers)
+	stained, long list, of interest for duplicating results
+	imaged with Plympus confocal
+	
+Tissue prep(TEM)
+	same as above to PFA
+	fixed in 2% glutaraldehyde, 2% formaldehyde overnight 
+	PBS rinses
+	0.1M cardylate rinses
+	
+Analysis techniques:
+	voroni domain analysis
+		- Figure6
+		- area closer to that pedicle than any other 
+	Density recovery profile
+		-spacial density of points
+	Nearest Neighbor
+		- not the machine learning techniques
+		- distance to closest neighbor 
+		
+Results: 
+	GOOD!
+	
+	
+Sep 14th 
+
+Project description in brief
+actual source code  
+the actual source code + a report that explains how your solution works 
+you can do with your group 
+
+you can use any language you like -> go check the imaging libraries 
+duedate oct 17th ish, by the next morning 
+project 3 around dec5th, project 2 around november, project1 oct17ish 
+
+you will have image and on xy(x) coordinate 
+output in that vexel part of a vescicle or not? -> colored pictures 
+
+on the report "how well" here means accuracy of your program 
+data its on home/share/
+

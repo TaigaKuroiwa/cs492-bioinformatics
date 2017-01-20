@@ -1,0 +1,52 @@
+import cv2
+import math
+import numpy as np
+
+d_red = cv2.cv.RGB(150, 55, 65)
+l_red = cv2.cv.RGB(250, 200, 200)
+
+orig = cv2.imread("cropped.tif")
+img = orig.copy()
+img2 = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+##detector selection
+detector = cv2.FeatureDetector_create('MSER')
+fs = detector.detect(img2)
+fs.sort(key = lambda x: -x.size)
+##finding the circly-ish parts 
+def supress(x):
+        for f in fs:
+                distx = f.pt[0] - x.pt[0]
+                disty = f.pt[1] - x.pt[1]
+                dist = math.sqrt(distx*distx + disty*disty)
+                if (f.size > x.size) and (dist<f.size/2):
+                        return True
+##bruteforcing 
+sfs = [x for x in fs if not supress(x)]
+
+findAverage = []
+
+counter = 0
+
+for f in sfs:
+	empty.append(f.size)
+##circling
+avg = np.mean(findAverage)
+
+adjustedA = avg * 1.15
+
+for f in sfs:
+	if(f.size < adjustedA):
+        cv2.circle(img, (int(f.pt[0]), int(f.pt[1])), int(f.size/2), d_red, 2, cv2.CV_AA)
+        cv2.circle(img, (int(f.pt[0]), int(f.pt[1])), int(f.size/2), l_red, 1, cv2.CV_AA)
+		counter = counter + 1
+
+h, w = orig.shape[:2] 
+vis = np.zeros((h, w*2+5), np.uint8)
+vis = cv2.cvtColor(vis, cv2.COLOR_GRAY2BGR)
+vis[:h, :w] = orig
+vis[:h, w+5:w*2+5] = img
+
+#print(counter)
+
+cv2.imwrite("custom.jpg", vis)

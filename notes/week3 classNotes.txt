@@ -1,0 +1,45 @@
+week3 classNotesa
+
+Cells
+Eukaryotes have organelles = all the multiple cells are Eukaryotes(most likely), but could be single too 
+Prokaryotes and Archaea don't 
+
+Single-cell organisms
+
+Common organelles
+Nueleus - the most obvious part of the cell 
+	-DNA is here, RNA is formed, mRNA is used to synthesize proteins in the ribosome
+	-Protein = chains of amino acids, which usually transform or diverge 
+	-結論プロテイン働きすぎマン
+Ribosomes
+	- not inside a membrane + protein synthesis 
+	- protein factory, sorting dividing combining 
+Mitochondria
+	- singular is mitochondrian
+Golgi apparatus
+	- packages proteins in vesicles
+	- you don't want to react proteins at random timing -> so you package them 
+Vacuole
+	- mostly a plant thing and its mostly water 
+	- use pressure and push out the water in some cases 
+Lysosome
+	- breakdown biological molecules 
+Chloroplast 
+	- for photosynthesis
+	
+Membranes, more detail
+Lipid bilayer = the outer lipids movearound on their side(they usually don't cahnge side)
+	- water does not usually pass through 
+	
+Gates 
+things on lipid bilayer 
+Ion channel - for neural connections and such 
+	- channels(proteins) that allows certain stuff
+	
+Metabolism 
+Mitochondria is uses ATP 
+fat and protein can be converted 
+Rabbit Starvation = rabbit has too much proteins(much more than chickens) = fat starvation
+start to fat first -> start to use protein 
+
+Neurotransmitters
